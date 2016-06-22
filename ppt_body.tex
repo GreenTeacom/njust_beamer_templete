@@ -1,0 +1,187 @@
+\input{ppt_head}
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\logo{\includegraphics[height=0.09\textwidth]{njust_logo.eps}}
+%\title[Short title]{Full Title of the Talk} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[博士答辩]{论文题目}
+
+\author{姓名} % Your name
+\institute[NJUST] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+南京理工大学 \\ % Your institution for the title page
+\medskip
+\textit{youremail@mail.com} % Your email address
+}
+\date{\today} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+\begin{frame}
+\frametitle{概要} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+\section{第一章} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+%------------------------------------------------
+
+\subsection{第一节} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
+
+\begin{frame}
+\frametitle{计算机学院介绍}
+南京理工大学计算机科学与工程学院始建于1953年创办的哈尔滨军事工程学院模拟计算机研究组，先后经历了炮兵工程学院计算机教研室（1960年）、华东工程学院计算机科学与工程系（1979年）等发展阶段，是我国高等学校中较早建立的计算机系之一。2005年12月更名为计算机科学与技术学院，2012年5月改为现名。\\~\\
+
+学院下设计算机科学与技术系、软件工程系、智能科学与技术系、数字媒体理论与工程系、计算机网络与通信技术系、计算机科学与工程实验中心、计算机应用技术研究所、信息处理及安全技术研究所、智能机器人研究所等。
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{关键点}
+\begin{itemize}
+\item 高维信息智能感知与系统
+\item 社会公共安全图像与视频理解
+\item 社会公共安全实验室
+\item 高维信息智能感知与系统
+\item 创新引智基地
+\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{分段}
+\begin{block}{段1}
+学院重视基础研究，围绕国家重大需求发展，积极承担国防、行业大型高层次科研任务，形成了军民结合的科研特色
+\end{block}
+
+\begin{block}{段2}
+在模式识别理论与应用、智能机器人与系统、计算机图像与图形处理、计算机仿真和虚拟现实、人工智能、计算机信息安全、遥感技术、智能检测等领域取得了显著的研究成果。
+\end{block}
+
+\begin{block}{段3}
+学院学术氛围浓厚，教风学风严谨活泼注重理论联系实际，学生多次在全国“挑战杯”竞赛、国际国内ACM大赛中获得优异的成绩。
+\end{block}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{多列}
+\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+
+\column{.45\textwidth} % Left column and width
+\textbf{Heading}
+\begin{enumerate}
+\item 学习
+\item 科研
+\item 工作
+\end{enumerate}
+
+\column{.5\textwidth} % Right column and width
+学院与卡耐基梅隆大学计算机学院机器人研究所联合培养“机器人”硕士研究生项目获教育部正式批准。此外，学院国际交流广泛，已与美、欧、澳、亚洲10多个国家30多个大学、研究机构建立了密切合作关系，影响不断扩大，在国内外具有较高知名度。
+
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+\section{Second Section}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{表格}
+\begin{table}
+\begin{tabular}{l l l}
+\toprule
+\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+\midrule
+Treatment 1 & 0.0003262 & 0.562 \\
+Treatment 2 & 0.0015681 & 0.910 \\
+Treatment 3 & 0.0009271 & 0.296 \\
+\bottomrule
+\end{tabular}
+\caption{Table caption}
+\end{table}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{定理}
+\begin{theorem}[Mass--energy equivalence]
+$E = mc^2$
+\end{theorem}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
+\frametitle{代码示例}
+\begin{example}[Theorem Slide Code]
+\begin{verbatim}
+\begin{frame}
+\frametitle{Theorem}
+\begin{theorem}[Mass--energy equivalence]
+$E = mc^2$
+\end{theorem}
+\end{frame}\end{verbatim}
+\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{图片}
+示例图片
+	\begin{center}
+		\includegraphics[width=9cm]{power.png}
+	\end{center}
+%\begin{figure}
+%\includegraphics[width=0.8\linewidth]{test}
+%{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
+\frametitle{Citation}
+An example of the \verb|\cite| command to cite within the presentation:\\~
+
+This statement requires citation \cite{p1}.
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{参考文献}
+\footnotesize{
+\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
+\bibitem[Smith, 2012]{p1} John Smith (2012)
+\newblock Title of the publication
+\newblock \emph{Journal Name} 12(3), 45 -- 678.
+\end{thebibliography}
+}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}[plain]
+		\begin{center}
+			\Huge{\textbf{Thanks for your attention!}}
+			
+			\Huge{\textit{Any questions?}}
+		\end{center}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
